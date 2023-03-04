@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     position: relative;
+     background: linear-gradient(120deg, #e0c3fc 0%,#8ec5fc 100%);   
+    // background: linear-gradient(135deg, #69EACB 0%,#EACCF8 48%,#6654F1 100%);
+    
+    }
+h1{
+    background: -webkit-linear-gradient(#d449afd3, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    position: absolute;
+    top: -100px;left: 570px;
+    font-family: 'Secular One', sans-s
+
+}
+.container{
+    margin-top: 250px ;
+    background-color: inherit;
+}
+.mm{
+    padding-left: 110px;
+    
+}
+.acc{
+    background:inherit;   
+    >li:nth-of-type(1){
+        list-style-type: none;
+        // border: 1px solid red;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(270deg, #DA41B0 0%,#fffdec 100%);  
+        cursor: pointer;
+        &:hover{
+            box-shadow: 11px 9px 23px rgba(121, 91, 121, 0.849),;
+        }
+    }
+    >li:nth-of-type(2){
+        list-style-type: none;
+        // border: 1px solid red;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(270deg, #DA41B0 0%,#fffdec 100%);    
+    
+        cursor: pointer;
+        &:hover{
+            box-shadow: 11px 9px 23px rgba(121, 91, 121, 0.849),;
+        }
+    }
+    >li:nth-of-type(3){
+        list-style-type: none;
+        // border: 1px solid red;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(270deg, #DA41B0 0%,#fffdec 100%);  
+        cursor: pointer;
+ 
+        &:hover{
+            box-shadow: 11px 9px 23px rgba(121, 91, 121, 0.849),;
+        } 
+    }
+    >li:nth-of-type(4){
+        list-style-type: none;
+        // border: 1px solid red;
+        padding-left: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(270deg, #DA41B0 0%,#fffdec 100%);  
+        cursor: pointer;
+ 
+        
+        &:hover{
+            box-shadow: 11px 9px 23px rgba(121, 91, 121, 0.849),;
+        }
+    }
+}
+.IMG{
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 2s;
+}
+
+
+h3{
+    font-family: 'Tilt Prism', cursive;
+
+}
+p{
+    font-family: 'Italianno', cursive;
+    font-size: 20px;
+}
